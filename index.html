@@ -16,22 +16,22 @@
     <nav>
       <img src="images/logo.jpg" alt="Logo" width="50px" height="auto" />
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
     <div class="container">
-      <header>
+      <header id="home">
         <div class="hero">
           <h1>Hello, It's Me</h1>
           <h1 class="name">Jan Mark Torres</h1>
-          <h1>I'm a Web Developer</h1>
+          <h1>I'm a Front-End Developer</h1>
           <p>
-            I build responsive and user-friendly websites using modern web
-            technologies.
+            I’m a student and a front-end developer who loves to create
+            beautiful and functional websites.
           </p>
           <button>My Portfolio</button>
         </div>
@@ -39,11 +39,59 @@
           <img
             src="images/profilePicture.png"
             alt="Profile Picture"
-            width="400px"
+            width="350px"
             height="auto"
           />
         </div>
       </header>
+      <div class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+          Hi! I’m Jan Mark Torres, a front-end developer who lives at the
+          intersection of design and logic. I spend my days (and sometimes
+          nights) obsessing over typography, micro-interactions, and the perfect
+          CSS grid. I love collaborating with creative thinkers to build
+          websites that feel alive. If you’re looking for a developer who speaks
+          "designer," respects the integrity of a Figma file, and can whip up a
+          responsive layout that actually works, we’re going to get along great.
+        </p>
+        <div class="info-cards-container">
+          <div class="info-card">
+            <p class="info-card-number">0</p>
+            <p class="info-card-text">Years of Experience</p>
+          </div>
+          <div class="info-card">
+            <p class="info-card-number">0</p>
+            <p class="info-card-text">Projects Completed</p>
+          </div>
+          <div class="info-card">
+            <p class="info-card-number">0</p>
+            <p class="info-card-text">Happy Clients</p>
+          </div>
+        </div>
+      </div>
+      <div class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skills-item">
+            <img src="images/html.png" alt="HTML" width="220px" height="auto" />
+            <p>HTML</p>
+          </div>
+          <div class="skills-item">
+            <img src="images/css.png" alt="CSS" width="250px" height="auto" />
+            <p>CSS</p>
+          </div>
+          <div class="skills-item">
+            <img
+              src="images/js.png"
+              alt="JavaScript"
+              width="245px"
+              height="auto"
+            />
+            <p>JavaScript</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
