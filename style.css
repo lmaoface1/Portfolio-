@@ -3,11 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.container {
-  border: 1px solid black;
-}
-
+/* Nav Styles */
 nav {
   background-color: #0f392b;
   display: flex;
@@ -38,7 +34,7 @@ nav a {
   font-size: 20px;
   font-weight: bold;
 }
-
+/* Header Styles */
 header {
   display: flex;
   justify-content: space-between;
@@ -90,7 +86,7 @@ header .profile-picture-container img {
   outline: 4px solid rgba(255, 255, 255, 0.1);
 }
 
-/* About */
+/* About Styles */
 .about {
   background-color: #f0f7f4;
   display: flex;
@@ -144,6 +140,7 @@ p.info-card-text {
   margin-top: -15px;
 }
 
+/* Skills Styles */
 .skills {
   background-color: #95d5b2;
   display: flex;
@@ -175,4 +172,84 @@ p.info-card-text {
 .skills-item p {
   font-size: 24px;
   font-weight: bold;
+}
+
+/* Projects Styles */
+.projects {
+  background-color: #f0f7f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 425px;
+  color: #0f392b;
+  height: 650px;
+}
+
+.projects h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  gap: 120px;
+  text-align: center;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.project-item img {
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  outline: 4px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-item a {
+  text-decoration: none;
+  color: #0f392b;
+}
+
+.project-item h3 {
+  font-size: 25px;
+  margin: 20px 0 10px 0;
+}
+
+/* Contact Styles */
+.contact {
+  background-color: #0f392b;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 425px;
+  color: #f0f7f4;
+  height: 200px;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.contact-info p {
+  font-size: 18px;
+}
+
+.contact-info p a {
+  color: #95d5b2;
+  text-decoration: none;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #0f392b;
+  color: #f0f7f4;
+  text-align: center;
+  padding: 20px 0;
 }
